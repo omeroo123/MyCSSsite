@@ -1,0 +1,135 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merryweather',serif;
+    color: #40514E;
+}
+
+h1{
+   color: #7AA2E3;
+   margin: 50px auto 0 auto;
+   width: fit-content;
+   font-family: 'Sacramento',cursive;
+   font-size: 5rem;
+
+}
+h2{
+    color: #7AA2E3;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2rem;
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat',sans-serif;
+}
+p{
+    line-height: 2;
+}
+
+hr{
+    border-color: #989898;
+    border-style: dotted;
+    border-width: 4px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+
+}
+
+
+.top{
+    background-color: #97E7E1;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bottom-container{
+    background-color: #97E7E1;
+    padding: 50px 0 20px;
+}
+
+.Bottom-cloud{
+    position: absolute;
+    left: 200px;
+    bottom:300px
+}
+
+.Top-cloud{
+    position: absolute;
+    right: 200px;
+    top:10px
+}
+
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    padding: 20px 0 20px 0;
+    text-align: left;
+    
+    
+}
+
+.Web-Developer{
+    width: 25%;
+    float: left;
+    margin-right:30px;
+}
+.Ux-Designer{
+    width: 25%;
+    float: right;
+    margin-left:30px;
+}
+
+.profile-description{
+    width: 20%;
+    margin: auto;
+}
+.profile{
+    padding-bottom: 100px;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.footer-link{
+    color: #11999E;
+    margin: 20px 20px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: #7AA2E3;
+}
+.copyright{
+    color: #7AA2E3;
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+.btn:hover{
+    color: #11999E;
+}
